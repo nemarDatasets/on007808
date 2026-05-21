@@ -1,5 +1,0 @@
-{
-    "EEGCoordinateSystem": "Other",
-    "EEGCoordinateSystemDescription": "Template electrode coordinates from the ANT Neuro CA-208 63-electrode cap export. Coordinates are in millimeters and correspond to the eego EEG channels, excluding table channel 32 / EEG032, which is marked MISC in channels.tsv.",
-    "EEGCoordinateUnits": "mm"
-}

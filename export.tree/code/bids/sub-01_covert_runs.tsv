@@ -1,3 +1,0 @@
-sub	ses	run	acq_time	target_task	trial_types	source_session	source_listening_wav	source_speaking_wav
-sub-01	ses-20240624	run-01	2024-06-24T13:42:33	covert	covert	/mnt/ms-nas/shige/yuya/20240624/session1	/mnt/ms-nas/shige/yuya/20240624/session1/2024-06-24 13-42-33_listening.wav	/mnt/ms-nas/shige/yuya/20240624/session1/2024-06-24 13-42-33_speaking.wav
-sub-01	ses-20240624	run-03	2024-06-24T15:55:10	covert	covert	/mnt/ms-nas/shige/yuya/20240624/session3	/mnt/ms-nas/shige/yuya/20240624/session3/2024-06-24 15-55-10_listening.wav	/mnt/ms-nas/shige/yuya/20240624/session3/2024-06-24 15-55-10_speaking.wav

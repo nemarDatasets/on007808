@@ -1,5 +1,0 @@
-{
-    "EEGCoordinateSystem": "Other",
-    "EEGCoordinateSystemDescription": "Template electrode coordinates from the g.tec gHIamp_64ch extended 10-20 montage XML used for g.SCARABEO sessions. The source montage coordinates are normalized to radius 1 and were scaled by 100 to express approximate template coordinates in millimeters. EEG063 and EEG064 correspond to mastoid electrodes A1 and A2 in the source montage.",
-    "EEGCoordinateUnits": "mm"
-}

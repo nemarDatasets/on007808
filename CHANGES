@@ -1,6 +1,5 @@
-1.0.0 2026-03-24
-  - Initial release
-
+1.0.0 2026-05-21
+  - The very first
 1.0.1 2026-05-11
   - Removed sub-04 from the working dataset.
   - Restored participants.tsv with anonymized participant identifiers only.

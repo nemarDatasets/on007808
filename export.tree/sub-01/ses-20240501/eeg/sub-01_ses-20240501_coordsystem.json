@@ -1,0 +1,5 @@
+{
+    "EEGCoordinateSystem": "Other",
+    "EEGCoordinateSystemDescription": "Subject head coordinate system from g.tec electrode digitization (electrodes_uhd.xml). 3D coordinates in the subject's head space.",
+    "EEGCoordinateUnits": "mm"
+}

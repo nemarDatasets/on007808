@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG-Speech Brain Decoding Dataset",
+  "description": "This dataset comprises EEG recordings and concurrent audio data collected during speech production and auditory listening tasks. Participants performed overt speech vocalization, passive listening to prerecorded speech, and covert speech imagery tasks while EEG was recorded using three different acquisition systems (g.tec g.Pangolin, g.SCARABEO, and ANT Neuro eego sports). The dataset supports brain decoding research aimed at reconstructing or classifying speech-related neural activity from scalp EEG signals.",
+  "methods_description": "EEG data were acquired using three different systems: g.tec g.Pangolin (128 EEG channels), g.tec g.SCARABEO (64 EEG channels), and ANT Neuro eego sports (63 EEG channels). All recordings included supplementary channels for audio monitoring, electrooculography (EOG), electromyography (EMG), and trigger signals. For g.Pangolin sessions, 3D electrode coordinates were obtained via g.tec electrode digitization. Tasks included overt speech production (participants vocalized visually presented text), auditory listening (passive listening to prerecorded speech), and listening with covert speech imagery.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -21,12 +23,27 @@
       "orcid": "0000-0002-9941-6510"
     }
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds007808.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "speech decoding"
+    },
+    {
+      "term": "brain-computer interfaces"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "auditory processing"
+    },
+    {
+      "term": "neural signal processing"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on007808",
       "identifier_type": "URL",
@@ -41,6 +58,11 @@
       "identifier": "10.1088/1741-2552/ae54d0",
       "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007808.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -51,13 +73,13 @@
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "Neuroimaging Dataset",
   "modalities": [
     "beh",
     "eeg"
   ],
-  "resource_type_specific": "Neuroimaging Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "1.7 TB (3965 files)"
   ],
   "formats": [
     ".edf",
@@ -66,32 +88,8 @@
     ".py",
     ".pyc",
     ".tsv",
-    ".wav"
+    ".wav",
+    ".yml"
   ],
-  "description": "This dataset comprises EEG recordings and concurrent audio data collected during speech production and auditory listening tasks. Participants performed overt speech vocalization, passive listening to prerecorded speech, and covert speech imagery tasks while EEG was recorded using three different acquisition systems (g.tec g.Pangolin, g.SCARABEO, and ANT Neuro eego sports). The dataset supports brain decoding research aimed at reconstructing or classifying speech-related neural activity from scalp EEG signals.",
-  "methods_description": "EEG data were acquired using three different systems: g.tec g.Pangolin (128 EEG channels), g.tec g.SCARABEO (64 EEG channels), and ANT Neuro eego sports (63 EEG channels). All recordings included supplementary channels for electrooculography (EOG), electromyography (EMG), audio monitoring, and trigger signals. For g.Pangolin sessions, 3D electrode coordinates were obtained via g.tec electrode digitization. Participants completed three task types: overt speech production (vocalization of visually presented text), auditory listening (passive listening to prerecorded speech), and listening with covert speech imagery. Sessions are organized by recording date with multiple runs distinguished by run numbers.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "speech production"
-    },
-    {
-      "term": "speech perception"
-    },
-    {
-      "term": "brain decoding"
-    },
-    {
-      "term": "motor imagery"
-    },
-    {
-      "term": "neural signal processing"
-    },
-    {
-      "term": "auditory processing"
-    }
-  ],
-  "source_hash": "d09c864a2fe845e5b2f7c450af59763a99c3c3bdba52bf9b12539675f771527e"
+  "source_hash": "118850a628d010f48a356d29997fdcd5d8e40144bd7f5c8e6c0aeb7c788d33f0"
 }

@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG-Speech Brain Decoding Dataset",
-  "description": "This dataset comprises EEG recordings and concurrent audio data collected during speech production and auditory listening tasks. Participants performed overt speech vocalization, passive listening to prerecorded speech, and covert speech imagery tasks while EEG was recorded using three different acquisition systems (g.tec g.Pangolin, g.SCARABEO, and ANT Neuro eego sports). The dataset supports brain decoding research aimed at reconstructing or classifying speech-related neural activity from scalp EEG signals.",
-  "methods_description": "EEG data were acquired using three different systems: g.tec g.Pangolin (128 EEG channels), g.tec g.SCARABEO (64 EEG channels), and ANT Neuro eego sports (63 EEG channels). All recordings included supplementary channels for audio monitoring, electrooculography (EOG), electromyography (EMG), and trigger signals. For g.Pangolin sessions, 3D electrode coordinates were obtained via g.tec electrode digitization. Tasks included overt speech production (participants vocalized visually presented text), auditory listening (passive listening to prerecorded speech), and listening with covert speech imagery.",
+  "description": "This dataset comprises EEG recordings and concurrent audio data collected during speech production and auditory listening tasks. Participants performed overt speech vocalization, passive listening to prerecorded speech, and covert speech imagery tasks while EEG was recorded using three different acquisition systems (g.tec g.Pangolin, g.SCARABEO, and ANT Neuro eego sports). The dataset supports brain decoding research investigating the neural correlates of speech perception and production.",
+  "methods_description": "EEG data were acquired using three different systems: g.tec g.Pangolin (128 EEG channels), g.tec g.SCARABEO (64 EEG-related channels), and ANT Neuro eego sports (63 EEG channels). All recordings included supplementary channels for audio monitoring, electrooculography (EOG), electromyography (EMG), and trigger signals. Three experimental tasks were performed: speechopen (overt speech production with visually presented text), listening (passive auditory listening to prerecorded speech), and listeningcovert (auditory listening followed by covert speech imagery). Sessions are organized by recording date (YYYYMMDD format) with multiple runs distinguished by run numbers.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -28,10 +28,13 @@
       "term": "EEG"
     },
     {
-      "term": "speech decoding"
+      "term": "speech production"
     },
     {
-      "term": "brain-computer interfaces"
+      "term": "speech perception"
+    },
+    {
+      "term": "brain decoding"
     },
     {
       "term": "motor imagery"
@@ -40,7 +43,7 @@
       "term": "auditory processing"
     },
     {
-      "term": "neural signal processing"
+      "term": "neural encoding"
     }
   ],
   "related_identifiers": [

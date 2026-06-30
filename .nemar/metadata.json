@@ -1,0 +1,43 @@
+{
+  "version": "2.0",
+  "dataset_id": "on007808",
+  "source": "openneuro",
+  "source_id": "ds007808",
+  "title": "EEG-Speech Brain Decoding Dataset",
+  "authors": {
+    "Motoshige Sato": {},
+    "Ilya Horiguchi": {},
+    "Masakazu Inoue": {},
+    "Kenichi Tomeoka": {},
+    "Eri Hatakeyama": {},
+    "Yuya Kita": {},
+    "Atsushi Yamamoto": {},
+    "Ippei Fujisawa": {},
+    "Shuntaro Sasai": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds007808.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.9.0",
+  "recording_modality": [
+    "beh",
+    "eeg"
+  ],
+  "datatypes": [
+    "beh",
+    "eeg"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "JST, Moonshot R&D Grant Number JPMJMS2012"
+    }
+  ],
+  "acknowledgements": "We thank Yasuo Kabe, Sensho Nobe, and Akito Yoshida for valuable discussions on the research direction and data collection strategy during the early stages of this project. We are grateful to Mayumi Shimizu for her support in data collection and administrative coordination, and to Ryu Miyata for administrative support. We thank Yukihito Yomogida for his continued administrative support, including the preparation of ethics committee documentation and other regulatory procedures essential to this study. We also thank Ryota Kanai for his guidance as program manager of the grant program and for discussions on the data collection strategy, and Kai Arulkumaran for helpful discussions on the data collection approach."
+}

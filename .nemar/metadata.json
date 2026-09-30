@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG-Speech Brain Decoding Dataset",
-  "description": "This dataset comprises EEG and synchronized audio recordings collected for brain-based speech decoding research. It includes overt speech production, auditory listening, and covert speech imagery tasks recorded with multiple EEG acquisition systems (g.tec g.Pangolin, g.tec g.SCARABEO, ANT Neuro eego sports). The dataset supports research on neural correlates of speech production and perception, and brain-computer interface decoding of speech from EEG signals.",
-  "methods_description": "EEG data were recorded using three different acquisition systems (g.tec g.Pangolin, g.tec g.SCARABEO, ANT Neuro eego sports) across multiple sessions labeled by recording date, with tasks including overt speech production, auditory listening, and covert speech imagery. Audio recordings of vocal production and listening stimuli were collected alongside EEG. Raw EEG data are stored in EDF format, with channel typing detailed in accompanying channels.tsv files and electrode coordinates provided for g.Pangolin sessions.",
+  "description": "An EEG dataset paired with audio recordings for decoding speech from brain activity. It includes overt speech production, auditory listening, and listening followed by covert speech imagery tasks. Data were acquired with three EEG systems (g.tec g.Pangolin, g.tec g.SCARABEO, and ANT Neuro eego sports), together with EOG, EMG, and audio monitor channels.",
+  "methods_description": "EEG was recorded with g.tec g.Pangolin (128 channels), g.tec g.SCARABEO (64 channels), or ANT Neuro eego sports (64 channels), along with audio monitor, EOG, lip EMG, and trigger channels. Participants completed overt speech production (vocalizing visually presented text), listening to prerecorded speech, and listening followed by covert speech imagery. Sessions are organized by recording date and stored in EDF format with synchronized WAV audio. 3D electrode coordinates from digitization are provided for g.Pangolin sessions.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -28,12 +28,7 @@
       "term": "EEG"
     },
     {
-      "term": "speech production"
-    },
-    {
-      "term": "Auditory Perception",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D001307"
+      "term": "speech decoding"
     },
     {
       "term": "brain-computer interface"
@@ -42,7 +37,10 @@
       "term": "covert speech"
     },
     {
-      "term": "speech decoding"
+      "term": "auditory perception"
+    },
+    {
+      "term": "overt speech production"
     }
   ],
   "related_identifiers": [
@@ -81,7 +79,7 @@
     "eeg"
   ],
   "sizes": [
-    "1.7 TB (3965 files)"
+    "1.54 TB (3965 files)"
   ],
   "formats": [
     ".edf",
